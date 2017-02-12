@@ -10,6 +10,8 @@
 		B5983A022140465E00C7A694 /* SKCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A012140465E00C7A694 /* SKCategories.m */; };
 		B5983A032140465E00C7A694 /* SKCategories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5983A002140465E00C7A694 /* SKCategories.h */; };
 		B5983A122140490000C7A694 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A112140490000C7A694 /* NSString+Additions.m */; };
+		B5983A1521404F8A00C7A694 /* NSBundle+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A1421404F8A00C7A694 /* NSBundle+Additions.m */; };
+		B5983A182140502D00C7A694 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A172140502D00C7A694 /* NSObject+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		B5983A012140465E00C7A694 /* SKCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCategories.m; sourceTree = "<group>"; };
 		B5983A102140490000C7A694 /* NSString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		B5983A112140490000C7A694 /* NSString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		B5983A1321404F8A00C7A694 /* NSBundle+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Additions.h"; sourceTree = "<group>"; };
+		B5983A1421404F8A00C7A694 /* NSBundle+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Additions.m"; sourceTree = "<group>"; };
+		B5983A162140502D00C7A694 /* NSObject+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		B5983A172140502D00C7A694 /* NSObject+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				B5983A012140465E00C7A694 /* SKCategories.m */,
 				B5983A102140490000C7A694 /* NSString+Additions.h */,
 				B5983A112140490000C7A694 /* NSString+Additions.m */,
+				B5983A1321404F8A00C7A694 /* NSBundle+Additions.h */,
+				B5983A1421404F8A00C7A694 /* NSBundle+Additions.m */,
+				B5983A162140502D00C7A694 /* NSObject+Additions.h */,
+				B5983A172140502D00C7A694 /* NSObject+Additions.m */,
 			);
 			path = SKCategories;
 			sourceTree = "<group>";
@@ -129,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5983A022140465E00C7A694 /* SKCategories.m in Sources */,
+				B5983A182140502D00C7A694 /* NSObject+Additions.m in Sources */,
+				B5983A1521404F8A00C7A694 /* NSBundle+Additions.m in Sources */,
 				B5983A122140490000C7A694 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
