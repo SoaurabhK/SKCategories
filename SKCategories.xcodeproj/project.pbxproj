@@ -14,6 +14,8 @@
 		B5983A182140502D00C7A694 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A172140502D00C7A694 /* NSObject+Additions.m */; };
 		B5983A1B214052EF00C7A694 /* UIActionSheet+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A1A214052EF00C7A694 /* UIActionSheet+Additions.m */; };
 		B5983A1E2140549600C7A694 /* UIAlertView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A1D2140549600C7A694 /* UIAlertView+Additions.m */; };
+		B5983A21214058A000C7A694 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A20214058A000C7A694 /* UIColor+Additions.m */; };
+		B5983A242140595900C7A694 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A232140595900C7A694 /* UIImage+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,10 @@
 		B5983A1A214052EF00C7A694 /* UIActionSheet+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Additions.m"; sourceTree = "<group>"; };
 		B5983A1C2140549600C7A694 /* UIAlertView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Additions.h"; sourceTree = "<group>"; };
 		B5983A1D2140549600C7A694 /* UIAlertView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Additions.m"; sourceTree = "<group>"; };
+		B5983A1F214058A000C7A694 /* UIColor+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		B5983A20214058A000C7A694 /* UIColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		B5983A222140595900C7A694 /* UIImage+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		B5983A232140595900C7A694 /* UIImage+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				B5983A1A214052EF00C7A694 /* UIActionSheet+Additions.m */,
 				B5983A1C2140549600C7A694 /* UIAlertView+Additions.h */,
 				B5983A1D2140549600C7A694 /* UIAlertView+Additions.m */,
+				B5983A1F214058A000C7A694 /* UIColor+Additions.h */,
+				B5983A20214058A000C7A694 /* UIColor+Additions.m */,
+				B5983A222140595900C7A694 /* UIImage+Additions.h */,
+				B5983A232140595900C7A694 /* UIImage+Additions.m */,
 			);
 			path = SKCategories;
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5983A1B214052EF00C7A694 /* UIActionSheet+Additions.m in Sources */,
+				B5983A242140595900C7A694 /* UIImage+Additions.m in Sources */,
+				B5983A21214058A000C7A694 /* UIColor+Additions.m in Sources */,
 				B5983A022140465E00C7A694 /* SKCategories.m in Sources */,
 				B5983A182140502D00C7A694 /* NSObject+Additions.m in Sources */,
 				B5983A1E2140549600C7A694 /* UIAlertView+Additions.m in Sources */,
