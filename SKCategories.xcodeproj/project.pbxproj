@@ -16,6 +16,8 @@
 		B5983A1E2140549600C7A694 /* UIAlertView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A1D2140549600C7A694 /* UIAlertView+Additions.m */; };
 		B5983A21214058A000C7A694 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A20214058A000C7A694 /* UIColor+Additions.m */; };
 		B5983A242140595900C7A694 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A232140595900C7A694 /* UIImage+Additions.m */; };
+		B5983A2D2140EA2500C7A694 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A2C2140EA2500C7A694 /* UIDevice+Additions.m */; };
+		B5983A302140EA3700C7A694 /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5983A2F2140EA3700C7A694 /* UIScreen+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,10 @@
 		B5983A20214058A000C7A694 /* UIColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
 		B5983A222140595900C7A694 /* UIImage+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		B5983A232140595900C7A694 /* UIImage+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		B5983A2B2140EA2500C7A694 /* UIDevice+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Additions.h"; sourceTree = "<group>"; };
+		B5983A2C2140EA2500C7A694 /* UIDevice+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Additions.m"; sourceTree = "<group>"; };
+		B5983A2E2140EA3700C7A694 /* UIScreen+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Additions.h"; sourceTree = "<group>"; };
+		B5983A2F2140EA3700C7A694 /* UIScreen+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 				B5983A20214058A000C7A694 /* UIColor+Additions.m */,
 				B5983A222140595900C7A694 /* UIImage+Additions.h */,
 				B5983A232140595900C7A694 /* UIImage+Additions.m */,
+				B5983A2B2140EA2500C7A694 /* UIDevice+Additions.h */,
+				B5983A2C2140EA2500C7A694 /* UIDevice+Additions.m */,
+				B5983A2E2140EA3700C7A694 /* UIScreen+Additions.h */,
+				B5983A2F2140EA3700C7A694 /* UIScreen+Additions.m */,
 			);
 			path = SKCategories;
 			sourceTree = "<group>";
@@ -161,7 +171,9 @@
 				B5983A1B214052EF00C7A694 /* UIActionSheet+Additions.m in Sources */,
 				B5983A242140595900C7A694 /* UIImage+Additions.m in Sources */,
 				B5983A21214058A000C7A694 /* UIColor+Additions.m in Sources */,
+				B5983A302140EA3700C7A694 /* UIScreen+Additions.m in Sources */,
 				B5983A022140465E00C7A694 /* SKCategories.m in Sources */,
+				B5983A2D2140EA2500C7A694 /* UIDevice+Additions.m in Sources */,
 				B5983A182140502D00C7A694 /* NSObject+Additions.m in Sources */,
 				B5983A1E2140549600C7A694 /* UIAlertView+Additions.m in Sources */,
 				B5983A1521404F8A00C7A694 /* NSBundle+Additions.m in Sources */,
